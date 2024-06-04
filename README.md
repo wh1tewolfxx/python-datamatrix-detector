@@ -2,8 +2,8 @@
 
 This datamatrix detector was implemented using OpenCV and pylibdmtx. The detector utilizes a training image or template 
 of a datamatrix to train the detector and set the parameters. Once trained, the detector is then used to detect
-possible datamatrix's. Each possible datamatrix is decoded by pylibdmtx, and a border is placed 
-around successfully decoded datamatrix's regardless of orientation.
+possible datamatrices. Each possible datamatrix is decoded by pylibdmtx, and a border is placed 
+around successfully decoded datamatrices regardless of orientation.
 
 ## Getting Started
 
@@ -57,7 +57,7 @@ cv2.destroyAllWindows()
 
 ![Template Image](/assets/images/template_2.png "Template Image")
 
-## Detected Datamatrix's in Test Image
+## Detected datamatrices in the test image (Only template_2 type datamatrices are found)
 
 ![Test Image](/assets/images/DetectedDatamatrix.png "Test Image")
 

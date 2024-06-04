@@ -1,10 +1,10 @@
 import cv2
 from dmtx_detector import DatamatrixDetector, visualize
 # Load the template image for training
-template_image = cv2.imread('template_2.png', cv2.IMREAD_GRAYSCALE)
+template_image = cv2.imread('assets/images/template_2.png', cv2.IMREAD_GRAYSCALE)
 
 # Load the target image to search for similar connected components
-target_image = cv2.imread('test_2.png', cv2.IMREAD_GRAYSCALE)
+target_image = cv2.imread('assets/images/test_2.png', cv2.IMREAD_GRAYSCALE)
 
 detector = DatamatrixDetector(template_image, False)
 
